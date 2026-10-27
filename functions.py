@@ -74,6 +74,79 @@
 # print(fact(5))
 
 
+#KEYWORD ARGUMENTS
+# def info(name,gender,age,address):
+#     print(name)
+#     print(gender)
+#     print(age)
+#     print(address)
 
+# info(gender='M',age='52',address='bhopal',name='mukesh')
+
+
+#palindrome or not
+# def palindrome(num):
+#     copy=num
+#     rev=num
+#     while num>0:
+#         last = num%10
+#         rev = rev * 10 + last
+#         num = num//10
+
+#     if copy==rev:
+#             print(f"{copy} is a palindrome number")
+#     else :
+#             print(f"{copy} is not palindrome number")
+# palindrome(num=1221)
+
+#RECURSION 
+#FUNCTION CALL ITSELF
+# 1. def display(num): #num=1s
+#     if num>10:
+#         return
+#     print(num)
+#     display(num+1)
+
+# display(1)
+
+# 1. def display(num):
+#     if num<1:
+#        return
+#     print(num)
+#     display(num-1)#function calling itself
+
+# display(10)
+
+#FACTORIAL USING RECURSION
+# def factorial(num):
+#     if num==0 or num==1:
+#         return 1
+#     else:
+#         return num *factorial(num-1)
+# print(factorial(5))
+
+#FUNCTION BACKUP
+# def add(a=5,b=8):#default parameters assign kar dete h to function call me sirf add() likh do 
+#     print(a+b)
+# add(5,9)#yaha wpas se values de di to inhi ko consider karega upar wale ko nhi 
+
+# def info(name,age):
+#     print(name , age)
+# # info("rahul",25)
+# info(age=18,name="rahul")
+
+#RETURN KEYWORD
+# def info(name,age):
+#     return(name,age)
+# x=info(name="rahul",age=18)
+    
+# print(x)
+
+# def fact(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#     return(fact)
+# print(fact(5))
 
 

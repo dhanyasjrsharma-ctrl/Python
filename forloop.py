@@ -8,7 +8,7 @@
 
 ## QUESTIONS    
 
-# a=range(50,121,1)
+# a=range(50,121,1)#(start,stop,step)
 # for i in a:
 #     print(i)
 
@@ -35,7 +35,7 @@
 
 # for i in range(1,11):
 #  if i==3:
-#     break
+#     break # break will stop the whole
 #  print(i*10)
 # else:
 #  print("i will run")
